@@ -14,7 +14,7 @@ font-family: Roboto, sans-serif;}
 
 /* #region header */
 
-.header {}
+.header {font-family: Raleway, sans-serif;}
 
 .nav-header {}
 
@@ -24,9 +24,9 @@ font-family: Roboto, sans-serif;}
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2E2F42;}
+    color: #4D5AE5;}
 .logo-style {
-    color: #4D5AE5}
+    color: #2E2F42}
 .nav-header-list {}
    
 
@@ -41,7 +41,12 @@ font-family: Roboto, sans-serif;}
     letter-spacing: 0.02em;
     color: #2e2f42;}
         .item-nav-link:hover, .item-nav-link:focus {color: #404BBF;}
-    .address-link {
+        .address {font-style: normal}
+    
+        .address-lists {}
+    
+        .address-lists-item {}
+        .address-link {
         font-weight: 400;
             font-size: 16px;
             line-height: 1.5;
@@ -96,7 +101,7 @@ font-weight: 400;
 /* #endregion block */
 
 /* #region team */
-.team {}
+.team {background-color: #F4F4FD}
 
 .team-title {
     font-weight: 700;
@@ -104,12 +109,13 @@ font-weight: 400;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     color: #2E2F42;
 }
 
 .team-lists {}
 
-.team-lists-item {}
+.team-lists-item {background-color: #FFFFFF}
 
 .team-item-title {
     font-weight: 500;
@@ -130,15 +136,21 @@ font-weight: 400;
 }
 /* #endregion team */
 
-/* region footer */
+/* #region footer */
 .footer {background-color: #2E2F42;}
 
-.footer-title {color: #F4F4FD;}
-.footer-title-web {color: #4D5AE5;}
+.footer-title {font-family: "Raleway", sans-serif;
+font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;}
+.footer-title-web {color: #f4f4fd;}
 
 .footer-text {font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;}
-/* region footer */
+/* #endregion footer */
