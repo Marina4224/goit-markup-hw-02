@@ -140,16 +140,16 @@ font-weight: 400;
 /* #endregion team */
 
 /* #region portfolio */
-.Portfolio {}
+.portfolio {}
 
-.Portfolio-lists {}
+.portfolio-lists {}
 
-.Portfolio-lists-item {}
+.portfolio-lists-item {}
 
 .portfolio-foto {}
 
-.Portfolio-item-text {
-    font-weight: 400;
+.portfolio-item-text {
+font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -157,7 +157,7 @@ font-weight: 400;
 
 * #endregion portfolio */
 
-/* #region footer */
+/* #endregion footer */
 .footer {}
 
 .footer-title {font-family: "Raleway", sans-serif;
